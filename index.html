@@ -1,21 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- <!DOCTYPE html>
+<html lang=“en”>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset=“UTF-8">
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0">
         <title>Document</title>
     </head>
     <body>
-        <select id="dropdown">
-            <option value="">Please select</option>
-            <option value="1" id="1">Ingredient</option>
-            <option value="2" id="2">Meal Name</button></option>
+        <select id=“dropdown”>
+            <option value=“”>Please select</option>
+            <option value=“1” id=“1">Ingredient</option>
+            <option value=“2” id=“2">Meal Name</button></option>
         </select>
-        Search term: <input type="text" id="searchTerm" placeholder="Enter choice">
-        <button onclick="myFunction()">Search!</button>
-        <div id="ytplayer"></div>
-        <div id="response-container"></div>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-        <script src="./assets/js/food.js"></script>
+        Search term: <input type=“text” id=“searchTerm” placeholder=“Enter choice”>
+        <button onclick=“myFunction()“>Search!</button>
+        <div id=“ytplayer”></div>
+        <div id=“response-container”></div>
+        <script src=“https://code.jquery.com/jquery-3.4.1.min.js” crossorigin=“anonymous”></script>
+        <script src=“./assets/js/food.js”></script>
     </body>
+</html> -->
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grub and Pub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/foundation.css" />
+    <link rel="stylesheet" href="assets/css/style.css"/>
+  </head>
+  <body>
+    <nav class="top-bar">
+      <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="menu-text">Grub and Pub</li>
+          <li>
+            <a href="#">Food</a>
+            <ul class="menu">
+              <li><a href="#">Name</a></li>
+              <li><a href="#">Ingredient</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Drinks</a>
+            <ul class="menu">
+              <li><a href="#">Name</a></li>
+              <li><a href="#">Ingredient</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+      <p>Disrupt chia plaid four loko wolf. Quinoa cold-pressed hexagon helvetica swag ennui. Twee gastropub health goth, literally tacos green juice swag pour-over locavore tattooed post-ironic. Live-edge chicharrones portland banh mi ennui. Tattooed cronut jean shorts three wolf moon squid banh mi. Air plant occupy letterpress microdosing.</p>
+      <div class="button-group-option" data-grouptype="OR">
+        <a href="#" class="button success radius">Food</a>
+        <a href="#" class="button primary radius">Drinks</a>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
 </html>
